@@ -1,0 +1,22 @@
+[
+    {
+        "path": "/",
+        "name": "Dashboard",
+        "icon": "../src/assets/dashboard/home.svg"
+    },
+    {
+        "path": "/",
+        "name": "Your Profile",
+        "icon": "bi bi-person-circle"
+    },
+    {
+        "path": "/",
+        "name": "Orders",
+        "icon": "bi bi-calendar-fill"
+    },
+    {
+        "path": "/",
+        "name": "Your Carts",
+        "icon": "bi bi-cart-check-fill"
+    }
+]

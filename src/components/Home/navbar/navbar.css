@@ -1,0 +1,81 @@
+/* navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .logo-img {
+    height: 4.19rem;
+    width: 3.6rem;
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+  }
+  
+  .logo-name {
+    font-size: 2.25rem;
+    font-weight: 700;
+    position: relative;
+    top: 1rem;
+  }
+  
+  .navlinks {
+    margin-right: 5rem;
+  }
+  
+  .navlinks ul {
+    display: flex;
+  }
+  
+  .navlinks ul li {
+    margin-right: 1.5rem;
+    position: relative;
+  }
+  
+  .navlinks ul li.home-btn {
+    color: var(--text-secondary);
+  }
+  
+  .navlinks ul li.signUp-btn {
+    background-color: var(--text-secondary);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: var(--bg-main);
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .navlinks ul li:nth-child(-n+2) a {
+    position: relative;
+    top: 0.6rem;
+  }
+  
+  .navlinks ul li::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: var(--text-secondary);
+    transition: all .3s ease-in-out;
+  }
+  
+  .navlinks ul li:nth-child(-n+2):hover::before {
+    width: 100%;
+  }
+  
+  .navlinks ul li:last-child:hover {
+    background-color: var(--text-sec-hover);
+  }

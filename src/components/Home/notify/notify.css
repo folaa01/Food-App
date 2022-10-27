@@ -1,0 +1,39 @@
+.notify {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5rem;
+}
+
+.notify-text {
+    text-align: left;
+}
+
+.notify-text h1 {
+    color: var(--text-sec-hover);
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.notify-text p {
+    line-height: 1.5;
+}
+
+.notify-form {
+    margin-right: 5rem;
+}
+
+.form input{
+    margin-right: 0.3rem;
+    padding: 0.3rem 3rem 0.3rem 0.3rem;
+    border-radius: 5px;
+    border-color: var(--text-primary);
+}
+
+.form button {
+    background-color: var(--text-sec-hover);
+    color: var(--bg-main);
+    font-weight: 500;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+}

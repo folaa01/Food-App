@@ -1,0 +1,25 @@
+.register {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.register-span {
+    top: -4.5rem;
+    right: -9rem;
+}
+
+
+.register-form {
+    margin: 0 3rem;
+}
+
+.register-form h1 {
+    color: var(--bg-main);
+    margin-bottom: 3rem;
+} 
+
+.register-options {
+    color: var(--bg-main);
+}
